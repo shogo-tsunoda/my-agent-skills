@@ -1,7 +1,7 @@
 # 本リポジトリについて
 有用なスキルを自分用に集めています。
 
-# 各Skillの説明
+# [Anrhropics](https://github.com/anthropics/skills)
 
 ## doc-coauthoring
 `doc-coauthoring` は、提案書・設計書・仕様書などのドキュメントを、AIと一緒に段階的に作るためのSKILLです。
