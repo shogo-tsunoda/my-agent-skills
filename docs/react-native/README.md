@@ -4,9 +4,34 @@ React Native・Expo 向けのスキルです。
 
 ---
 
+## react-native-skills
+
+**出所**: [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills)
+
+React Native / Expo アプリのベストプラクティス集です。パフォーマンス・アニメーション・UI パターン・プラットフォーム固有の最適化をカバーします。
+
+- **用途**: React Native / Expo アプリの構築・パフォーマンス最適化・コードレビュー
+- **ルール数**: 42 ルール / 8 カテゴリ
+- **場所**: `skills/react-native/react-native-skills/`
+
+### カテゴリ
+
+| 優先度 | カテゴリ | 影響度 | プレフィックス |
+|---|---|---|---|
+| 1 | リストパフォーマンス | CRITICAL | `list-performance-` |
+| 2 | アニメーション | HIGH | `animation-` |
+| 3 | ナビゲーション | HIGH | `navigation-` |
+| 4 | UI パターン | HIGH | `ui-` |
+| 5 | 状態管理 | MEDIUM | `react-state-` |
+| 6 | レンダリング | MEDIUM | `rendering-` |
+| 7 | モノレポ | MEDIUM | `monorepo-` |
+| 8 | 設定 | LOW | `fonts-`, `imports-` |
+
+---
+
 ## expo プラグイン（公式）
 
-**リポジトリ**: [expo/skills](https://github.com/expo/skills)
+**出所**: [expo/skills](https://github.com/expo/skills)
 
 Expo チームが公式に提供するプラグインです。Claude Code へのインストールは以下のコマンドで行います。
 
@@ -73,3 +98,39 @@ RevenueCat・AdMob・i18n を含む、収益化対応のプロダクションレ
 - `lineHeight` は使用禁止 → padding / margin で代替
 - `Tabs`（expo-router）は使用禁止 → `NativeTabs` を使用
 - `expo-av` は使用禁止 → 映像は `expo-video`、音声は `expo-audio`
+
+---
+
+## callstackincubator スキル
+
+**出所**: [callstack/ai-skills](https://github.com/callstack/ai-skills)
+
+Callstack が提供する React Native 向けスキルセットです。
+
+**場所**: `skills/react-native/callstackincubator/`
+
+### 収録スキル
+
+| スキル | 説明 |
+|---|---|
+| react-native-best-practices | FPS・TTI・バンドルサイズ・メモリリーク・再レンダリング・アニメーションのパフォーマンス最適化ガイド |
+| react-native-brownfield-migration | 既存ネイティブアプリへの React Native 段階的導入（`@callstack/react-native-brownfield`） |
+| upgrading-react-native | rn-diff-purge テンプレート差分を使った React Native バージョンアップ |
+| github-actions | React Native の iOS シミュレータ / Android エミュレータ向け CI ビルドパターン |
+| github | `gh` CLI を使った PR・コードレビュー・ブランチ戦略パターン |
+
+---
+
+## react-native-community スキル
+
+**出所**: [react-native-community/ai-skills](https://github.com/react-native-community/ai-skills)
+
+React Native Community が提供するスキルです。
+
+**場所**: `skills/react-native/react-native-community/`
+
+### 収録スキル
+
+| スキル | 説明 |
+|---|---|
+| upgrade-react-native | React Native Upgrade Helper の差分を適用してバージョンアップを実行 |
